@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int number = 0;
-        if (number == 7){
-            System.out.println("O número 7 é impar!");
-        }else if (number == 8){
+        int number = 8;
+        if (number % 2 == 0){
             System.out.println("O número 8 é par!");
+        }else {
+            System.out.println("O número 7 é impar!");
         }
     }
 }
